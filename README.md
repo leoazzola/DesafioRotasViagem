@@ -41,8 +41,9 @@ Este projeto é uma API em .NET 6 que permite cadastrar rotas de viagens e consu
 ### Cadastro de Rotas
 
 #### Request
-```json
+
 POST /rotas​/incluir-rota
+```json
 {
     "origem": "GRU",
     "destino": "BRC",
