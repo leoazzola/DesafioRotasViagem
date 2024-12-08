@@ -24,6 +24,9 @@ namespace DesafioRotasViagem.Application
 
         public async Task<string?> GetMelhorRotaAsync(string origem, string destino)
         {
+            origem = origem.ToUpper();
+            destino = destino.ToUpper();
+
             var rotas = await _routeRepository.GetMelhorRotaAsync(origem, destino);
 
             var melhorRota = DijkstraAlgorithm(rotas, origem, destino);

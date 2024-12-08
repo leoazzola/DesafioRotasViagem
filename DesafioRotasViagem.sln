@@ -3,18 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.API", "DesafioRotasViagem.API\DesafioRotasViagem.API.csproj", "{9EBCF173-9185-4CC3-91BE-455A2DB346A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.Domain", "DesafioRotasViagem.Domain\DesafioRotasViagem.Domain.csproj", "{A1537E1E-AC78-4143-B4CD-9BEE8B91994A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.Domain", "..\DesafioRotasViagem.Domain\DesafioRotasViagem.Domain.csproj", "{A1537E1E-AC78-4143-B4CD-9BEE8B91994A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.Application", "DesafioRotasViagem.Application\DesafioRotasViagem.Application.csproj", "{0397EC8E-2D50-483C-8228-0E7E3C93AFD5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.Application", "..\DesafioRotasViagem.Application\DesafioRotasViagem.Application.csproj", "{0397EC8E-2D50-483C-8228-0E7E3C93AFD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.Infra", "DesafioRotasViagem.Infra\DesafioRotasViagem.Infra.csproj", "{9DD21837-39EC-49FA-B78B-C82594F3B76A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.Infra", "..\DesafioRotasViagem.Infra\DesafioRotasViagem.Infra.csproj", "{9DD21837-39EC-49FA-B78B-C82594F3B76A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.Tests", "DesafioRotasViagem.Tests\DesafioRotasViagem.Tests.csproj", "{47971FAF-438B-4D08-911C-FA6595316798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioRotasViagem.Tests", "..\DesafioRotasViagem.Tests\DesafioRotasViagem.Tests.csproj", "{47971FAF-438B-4D08-911C-FA6595316798}"
-	ProjectSection(ProjectDependencies) = postProject
-		{9EBCF173-9185-4CC3-91BE-455A2DB346A7} = {9EBCF173-9185-4CC3-91BE-455A2DB346A7}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioRotasViagem.API", "DesafioRotasViagem.API\DesafioRotasViagem.API\DesafioRotasViagem.API.csproj", "{70AB85AC-DC60-4291-BD87-F8C1208CAD0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9EBCF173-9185-4CC3-91BE-455A2DB346A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9EBCF173-9185-4CC3-91BE-455A2DB346A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9EBCF173-9185-4CC3-91BE-455A2DB346A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9EBCF173-9185-4CC3-91BE-455A2DB346A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A1537E1E-AC78-4143-B4CD-9BEE8B91994A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1537E1E-AC78-4143-B4CD-9BEE8B91994A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1537E1E-AC78-4143-B4CD-9BEE8B91994A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,6 +35,10 @@ Global
 		{47971FAF-438B-4D08-911C-FA6595316798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47971FAF-438B-4D08-911C-FA6595316798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47971FAF-438B-4D08-911C-FA6595316798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AB85AC-DC60-4291-BD87-F8C1208CAD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AB85AC-DC60-4291-BD87-F8C1208CAD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AB85AC-DC60-4291-BD87-F8C1208CAD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AB85AC-DC60-4291-BD87-F8C1208CAD0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
